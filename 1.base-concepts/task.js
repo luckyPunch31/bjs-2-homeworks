@@ -18,6 +18,7 @@ function solveEquation(a, b, c) {
 }
 
 function calculateTotalMortgage(percent, contribution, amount, countMonths) {
+
 	let monthlyPayment;
 	let P;
 	let res;
@@ -33,3 +34,6 @@ function calculateTotalMortgage(percent, contribution, amount, countMonths) {
 
 	return res;
 }
+
+
+
